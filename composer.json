@@ -1,5 +1,12 @@
 {
-    "name": "mp-ecommerce-php",
-    "type": "project",
-    "require": {}
+    "name": "VictorCabrera/VictorCabrera",
+    "authors": [
+        {
+            "name": "Victor Cabrera",
+            "email": "cabrerabravov@gmail.com"
+        }
+    ],
+    "require": {
+        "mercadopago/dx-php": "^2.2"
+    }
 }
