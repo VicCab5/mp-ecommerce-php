@@ -30,20 +30,5 @@ $data = MercadoPago\Payment::find_by_id($collection_id);
 <p>EXTERNAL REFERENCE: <?php echo isset($_GET['external_reference']) ? $_GET['external_reference'] : '';?></p>
 <p>PAYMENT ID: <?php echo isset($_GET['collection_id']) ? $_GET['collection_id'] : '';?></p>
 <p>SUCCESS</p>
-<pre>
-{
-    "action":"payment.created",
-    "api_version":"v1",
-    "data":{
-        "id":"<?php echo $collection_id ?>"
-    },
-    "date_created":"<?php echo explode('.',$data->date_created)[0] ?>Z", 
-    "id":<?php echo $data->order->id ?>,
-    "live_mode":true,
-    "type":"payment",
-    "user_id":"<?php echo explode('-',$preference_id)[0] ?>"
-}
-
-</pre>
 </body>
 </html>
