@@ -1,5 +1,12 @@
 {
-    "name": "mp-ecommerce-php",
-    "type": "project",
-    "require": {}
+    "name": "alvercix/alvercix",
+    "authors": [
+        {
+            "name": "Jesús Ruiz",
+            "email": "fixboop@gmail.com"
+        }
+    ],
+    "require": {
+        "mercadopago/dx-php": "^2.2"
+    }
 }

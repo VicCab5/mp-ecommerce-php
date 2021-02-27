@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487
+class ComposerStaticInit0ebb91041db09db3a9601e317ba74934
 {
     public static $prefixLengthsPsr4 = array (
         'M' => 
@@ -13,6 +13,11 @@ class ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487
         ),
         'D' => 
         array (
+            'Doctrine\\Persistence\\' => 21,
+            'Doctrine\\Inflector\\' => 19,
+            'Doctrine\\Common\\Lexer\\' => 22,
+            'Doctrine\\Common\\Inflector\\' => 26,
+            'Doctrine\\Common\\Collections\\' => 28,
             'Doctrine\\Common\\Cache\\' => 22,
             'Doctrine\\Common\\Annotations\\' => 28,
             'Doctrine\\Common\\' => 16,
@@ -27,11 +32,26 @@ class ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487
             2 => __DIR__ . '/..' . '/mercadopago/dx-php/src/MercadoPago/Generic',
             3 => __DIR__ . '/..' . '/mercadopago/dx-php/src/MercadoPago/Entities',
             4 => __DIR__ . '/..' . '/mercadopago/dx-php/src/MercadoPago/Entities/Shared',
-            5 => __DIR__ . '/..' . '/mercadopago/px-php/src/MercadoPago',
-            6 => __DIR__ . '/..' . '/mercadopago/px-php/tests',
-            7 => __DIR__ . '/..' . '/mercadopago/px-php/src/MercadoPago/Entities/Flavor1',
-            8 => __DIR__ . '/..' . '/mercadopago/px-php/src/MercadoPago/Entities/Flavor3',
-            9 => __DIR__ . '/..' . '/mercadopago/px-php/src/MercadoPago/Entities/Shared',
+        ),
+        'Doctrine\\Persistence\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Persistence',
+        ),
+        'Doctrine\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Inflector',
+        ),
+        'Doctrine\\Common\\Lexer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/lexer/lib/Doctrine/Common/Lexer',
+        ),
+        'Doctrine\\Common\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
+        ),
+        'Doctrine\\Common\\Collections\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections',
         ),
         'Doctrine\\Common\\Cache\\' => 
         array (
@@ -43,25 +63,10 @@ class ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487
         ),
         'Doctrine\\Common\\' => 
         array (
-            0 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
-        ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'D' => 
-        array (
-            'Doctrine\\Common\\Lexer\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/lexer/lib',
-            ),
-            'Doctrine\\Common\\Inflector\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/inflector/lib',
-            ),
-            'Doctrine\\Common\\Collections\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/doctrine/collections/lib',
-            ),
+            0 => __DIR__ . '/..' . '/doctrine/reflection/lib/Doctrine/Common',
+            1 => __DIR__ . '/..' . '/doctrine/event-manager/lib/Doctrine/Common',
+            2 => __DIR__ . '/..' . '/doctrine/persistence/lib/Doctrine/Common',
+            3 => __DIR__ . '/..' . '/doctrine/common/lib/Doctrine/Common',
         ),
     );
 
@@ -72,10 +77,9 @@ class ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit8a07a1437e1a0baef5ab354a76abe487::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit0ebb91041db09db3a9601e317ba74934::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit0ebb91041db09db3a9601e317ba74934::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit0ebb91041db09db3a9601e317ba74934::$classMap;
 
         }, null, ClassLoader::class);
     }

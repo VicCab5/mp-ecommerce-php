@@ -2,7 +2,7 @@
 <html class="supports-animation supports-columns svg no-touch no-ie no-oldie no-ios supports-backdrop-filter as-mouseuser" lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta name="viewport" content="width=1024">
-    <title>Tienda en linea del vic.</title>
+    <title>Tienda e-commerce</title>
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="format-detection" content="telephone=no">
@@ -11,6 +11,8 @@
     src="https://code.jquery.com/jquery-3.4.1.min.js"
     integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
     crossorigin="anonymous"></script>
+
+    <script src="https://www.mercadopago.com/v2/security.js" view="home"></script>
 
     <link rel="stylesheet" href="./assets/category-landing.css" media="screen, print">
 
@@ -104,7 +106,7 @@
                                                         </span>
                                                     </button>
                                                 </div>
-                                                <materializer data-uid="as-accordion-id0" id="as-accordion-id0" data-show-height="computed" data-hide-height="0" class="as-search-facet-materializer ase-materializer ase-materializer-show" data-shown-init="true" style="">
+                                                <materializer data-uid="as-accordion-id0" id="as-accordion-id0" data-show-height="computed" data-hide-height="0" class="as-search-facet-materializer ase-materializer ase-materializer-show" data-shown-init="true">
                                                     <div class="as-accordion-content">
                                                         <ul class="as-search-filter-items  as-filter-text-type    ">
                                                             <li class="as-filter-item       ">
@@ -278,7 +280,7 @@
                                                 <div class="clearfix image-list xs-no-js as-util-relatedlink relatedlink" data-relatedlink="3|BeatsX Earphones - UNDEFEATED Limited Edition - Camo|MQD92">
                                                     <div class="as-tilegallery-element as-image-selected">
                                                         <div class=""></div>
-                                                        <img src="./assets/l6g6.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" data-desc="LG G6" style="">
+                                                        <img src="./assets/l6g6.jpg" class="ir ir item-image as-producttile-image" alt="" width="445" height="445" data-desc="LG G6">
                                                     </div>
                                                     
                                                 </div>
