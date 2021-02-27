@@ -6,20 +6,11 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'd0a4a2cb1411b7ef2b766620bcda1d069166293e',
-    'name' => 'alvercix/alvercix',
+    'reference' => 'd287d9723b5a065848295868e6ae01480a46bb17',
+    'name' => 'victor24/victor24',
   ),
   'versions' => 
   array (
-    'alvercix/alvercix' => 
-    array (
-      'pretty_version' => 'dev-master',
-      'version' => 'dev-master',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'd0a4a2cb1411b7ef2b766620bcda1d069166293e',
-    ),
     'doctrine/annotations' => 
     array (
       'pretty_version' => '1.12.1',
@@ -109,6 +100,15 @@
       array (
       ),
       'reference' => '2ea4d51f6b29d568b3a06d430114467fc2ab6b90',
+    ),
+    'victor24/victor24' => 
+    array (
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd287d9723b5a065848295868e6ae01480a46bb17',
     ),
   ),
 );
