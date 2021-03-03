@@ -1,0 +1,12 @@
+{
+    "name": "victor24/victor24",
+    "authors": [
+        {
+            "name": "VicCab5",
+            "email": "cabrerabravov@gmail.com"
+        }
+    ],
+    "require": {
+        "mercadopago/dx-php": "^2.2"
+    }
+}
